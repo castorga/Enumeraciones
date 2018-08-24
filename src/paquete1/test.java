@@ -9,5 +9,9 @@ public class test {
 		double res = Operaciones.SUMA.resultado(a, b);
 		System.out.println(res);
 		System.out.println("bröthër");
+		
+		for(Operaciones ope:Operaciones.values()) {
+			System.out.println(ope.name());
+		}
 	}
 }
