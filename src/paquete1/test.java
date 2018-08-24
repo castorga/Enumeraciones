@@ -8,6 +8,6 @@ public class test {
 		double b = 4;
 		double res = Operaciones.SUMA.resultado(a, b);
 		System.out.println(res);
-		
+		System.out.println("bröthër");
 	}
 }
